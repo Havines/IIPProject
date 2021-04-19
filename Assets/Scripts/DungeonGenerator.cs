@@ -42,11 +42,18 @@ public class DungeonGenerator : MonoBehaviour
 
     void Start()
     {
+        
         CreateNewDungeon();
     }
 
     public void CreateNewDungeon()
     {
+        tilemap.ClearAllTiles();
+        tilemapWall.ClearAllTiles();
+        tilemapUpWall.ClearAllTiles();
+        
+        
+        seed = Random.Range(0, 500000);
         var r = TeoreticalWallCreater(DungeonMapGenerator(size.x + 5, size.y + 5, intencity));
         DungeonTileMapSpawner(r);
     }
@@ -60,8 +67,6 @@ public class DungeonGenerator : MonoBehaviour
             for (var j = 2; j < y - 2; j++)
             {
                 var gr = Mathf.PerlinNoise((i + offset.x * seed) / zoom, (j + offset.y * seed) / zoom);
-
-                Debug.Log(gr);
 
                 if (i == 0 || j == 0 || i == x - 1 || j == y - 1)
                 {
@@ -111,7 +116,7 @@ public class DungeonGenerator : MonoBehaviour
     {
         var xLen = map.GetLength(0);
         var yLen = map.GetLength(1);
-
+        
         for (var x = 0; x < xLen; x++)
         {
             for (var y = 0; y < yLen; y++)
@@ -227,7 +232,6 @@ public class DungeonGenerator : MonoBehaviour
                     if (y != yLen - 1 && map[x, y] == 0 && map[x, y + 1] == 1)
                     {
                         tilemapUpWall.SetTile(new Vector3Int(x, y, 0), tileCenterBackWall);
-
                         continue;
                     }
 
