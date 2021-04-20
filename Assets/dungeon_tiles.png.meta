@@ -4,46 +4,46 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -8746033620184659114
-    second: bot_centerUp_Wall
+    second: front_center_Graundl
   - first:
       213: -7083331958401386302
-    second: up_right_Wall
+    second: front_right_Wall
   - first:
       213: 6420404250380019895
-    second: up_left_Wall
+    second: back_left_Wall
   - first:
       213: 1084784950523803941
-    second: bot_center_Wall
+    second: right_Wall
   - first:
       213: 2728243367429221048
-    second: up_center_Wall
+    second: fromt_center_Wall
   - first:
       213: -3230975458514250041
-    second: bot_right_Warl
+    second: left_Wall
   - first:
       213: 2054877772185783745
-    second: bot_rightUp_Warl
+    second: front_right_Graund
   - first:
       213: 6971619310513607880
-    second: bot_leftUp_Wall
+    second: front_left_Graund
   - first:
       213: 4558597556851542799
-    second: bot_soloUp_Warl
+    second: vertival_solo_up_Graund
   - first:
       213: 1794310841801812479
-    second: bot_solo_leftUp_Warl
+    second: horizontal_solo_left_Graund
   - first:
       213: 4545685854912230521
-    second: bot_solo_Wall
+    second: vertical_solo_down_Graund
   - first:
       213: -3023061875091369103
-    second: dungeon_tiles_11
+    second: Wall
   - first:
       213: 6725311274419569171
-    second: bot_solo_rightUp_Warl
+    second: horizontal_solo_right_Graund
   - first:
       213: 650693403263584314
-    second: bot_left_Wall
+    second: Floor
   - first:
       213: -5058788211806469395
     second: dungeon_tiles_14
@@ -61,7 +61,7 @@ TextureImporter:
     second: dungeon_tiles_18
   - first:
       213: -8199437182966303622
-    second: bot_solo_centr_upUp_Wall
+    second: vertical_solo_centr_Graundl
   - first:
       213: -5624414064620405630
     second: dungeon_tiles_20
@@ -79,7 +79,7 @@ TextureImporter:
     second: dungeon_tiles_24
   - first:
       213: -4354237494524392354
-    second: bot_solo_centr_rightUp_Wall
+    second: horizontal_solo_centr_Graundl
   - first:
       213: 2664481278081565330
     second: dungeon_tiles_26
@@ -91,13 +91,13 @@ TextureImporter:
     second: dungeon_tiles_28
   - first:
       213: 290047839109599427
-    second: dungeon_tiles_29
+    second: solo_Graund
   - first:
       213: -2900853429046034592
     second: dungeon_tiles_30
   - first:
       213: -1967943382963979276
-    second: dungeon_tiles_31
+    second: void
   - first:
       213: 6765227283418963874
     second: right_Wall
@@ -208,11 +208,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bot_centerUp_Wall
+      name: front_center_Graundl
       rect:
         serializedVersion: 2
-        x: 48
-        y: 192
+        x: 16
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -229,11 +229,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: up_right_Wall
+      name: front_right_Wall
       rect:
         serializedVersion: 2
-        x: 64
-        y: 208
+        x: 32
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -250,11 +250,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: up_left_Wall
+      name: back_left_Wall
       rect:
         serializedVersion: 2
-        x: 32
-        y: 208
+        x: 0
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -271,32 +271,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_center_Wall
+      name: fromt_center_Wall
       rect:
         serializedVersion: 2
-        x: 48
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52939a14a2eed0f00800000000000000
-      internalID: 1084784950523803941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: up_center_Wall
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 208
+        x: 16
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -313,32 +292,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_right_Warl
+      name: front_right_Graund
       rect:
         serializedVersion: 2
-        x: 64
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c6d04d50f44923d0800000000000000
-      internalID: -3230975458514250041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bot_rightUp_Warl
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
+        x: 32
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -355,11 +313,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_leftUp_Wall
+      name: front_left_Graund
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
+        x: 0
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -376,11 +334,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_soloUp_Warl
+      name: vertival_solo_up_Graund
       rect:
         serializedVersion: 2
-        x: 68
-        y: 156
+        x: 0
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -397,11 +355,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_solo_leftUp_Warl
+      name: horizontal_solo_left_Graund
       rect:
         serializedVersion: 2
         x: 32
-        y: 156
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -418,11 +376,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_solo_Wall
+      name: vertical_solo_down_Graund
       rect:
         serializedVersion: 2
-        x: 68
-        y: 140
+        x: 0
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -439,11 +397,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_solo_rightUp_Warl
+      name: horizontal_solo_right_Graund
       rect:
         serializedVersion: 2
         x: 48
-        y: 156
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -460,74 +418,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_left_Wall
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 176
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a384737e33ab70900800000000000000
-      internalID: 650693403263584314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bot_solo_downUp_Warl
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f4eccfb162b0a110800000000000000
-      internalID: 1270211227817927925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bot_solo_upUp_Warl
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0490bf0403d12090800000000000000
-      internalID: -8060929843619916789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: dungeon_tiles_18
       rect:
         serializedVersion: 2
-        x: 120
-        y: 208
+        x: 144
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -544,11 +439,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_solo_centr_upUp_Wall
+      name: vertical_solo_centr_Graundl
       rect:
         serializedVersion: 2
-        x: 88
-        y: 192
+        x: 112
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -568,8 +463,8 @@ TextureImporter:
       name: dungeon_tiles_21
       rect:
         serializedVersion: 2
-        x: 120
-        y: 176
+        x: 144
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -589,8 +484,8 @@ TextureImporter:
       name: bot_solo_centr_rightUp_Warl
       rect:
         serializedVersion: 2
-        x: 88
-        y: 208
+        x: 112
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -610,8 +505,8 @@ TextureImporter:
       name: dungeon_tiles_24
       rect:
         serializedVersion: 2
-        x: 88
-        y: 176
+        x: 112
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -628,11 +523,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bot_solo_centr_rightUp_Wall
+      name: horizontal_solo_centr_Graundl
       rect:
         serializedVersion: 2
-        x: 104
-        y: 176
+        x: 128
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -649,11 +544,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeon_tiles_29
+      name: solo_Graund
       rect:
         serializedVersion: 2
         x: 80
-        y: 320
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -670,32 +565,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeon_tiles_30
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 320
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06fbc38fc291eb7d0800000000000000
-      internalID: -2900853429046034592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dungeon_tiles_31
+      name: void
       rect:
         serializedVersion: 2
         x: 16
-        y: 208
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -712,11 +586,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: right_Wall
+      name: Wall
       rect:
         serializedVersion: 2
-        x: 96
-        y: 320
+        x: 80
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -726,8 +600,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2afd7fcde5ae2ed50800000000000000
-      internalID: 6765227283418963874
+      spriteID: 1731721dd3deb06d0800000000000000
+      internalID: -3023061875091369103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_Wall
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52939a14a2eed0f00800000000000000
+      internalID: 1084784950523803941
       vertices: []
       indices: 
       edges: []
@@ -736,8 +631,8 @@ TextureImporter:
       name: left_Wall
       rect:
         serializedVersion: 2
-        x: 32
-        y: 320
+        x: 0
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -747,8 +642,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d37e952690a09d20800000000000000
-      internalID: 3283300695089771475
+      spriteID: 7c6d04d50f44923d0800000000000000
+      internalID: -3230975458514250041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a384737e33ab70900800000000000000
+      internalID: 650693403263584314
       vertices: []
       indices: 
       edges: []
